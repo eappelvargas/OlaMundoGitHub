@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta http-equiv="Content-type" content="text/html charset=ISO-8859-1" />
+	 <h:outputStylesheet library="styles" name="principalle.css" />
+	<title>#{msgs.title}</title>	
+</h:head>
+<h:body>
+  <p:growl id="growl" showDetail="true" />
+    <h:panelGroup layout="block" styleClass="topboxcontent"></h:panelGroup>
+	  <h:form id="loginForm">
+	    <p:panel  closable="true" footer="Sistema de Avalição" header="Login" style="width:350px">
+	      <h:panelGrid columns="2">
+	  	    <h:outputLabel for="login" value="Login:" />
+			<p:inputText id="login" value="#{contatoBean.contato.login}" 
+			  promptLabel="Informe o seu login"
+			  autocomplete="off" 
+			  required="true" />
+			<h:outputLabel for="senha" value="Senha:"/>
+			<p:password minLength="6" value="#{contatoBean.contato.senha}" 
+			  required="true"
+			  promptLabel="Digite uma senha segura"
+			  goodLabel="Boa"
+			  weakLabel="Razoável"
+			  strongLabel="Excelente"/>		
+		  </h:panelGrid>
+		  <h:commandButton value="#{msgs.login}" action="#{contatoBean.efetuarLogin}"/>
+	    </p:panel>	
+       </h:form>
+</h:body>
+</html>

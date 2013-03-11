@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+/* login header box starts */
+.headerloginboxcontent {height:50px;background:#FFFFFF; padding:0px; color:#000000; text-align:left; border:0 solid #C6D6E7;}
+/* login header box ends */
+
+ /* top login box starts */
+.topboxcontent {width:580px;height:245px;background:#186A93; text-align:left; border:0 solid #76b0d6;}
+.topLoginPanel {position:relative;width:520px;height:95px;background:#165F84;border:2px solid #5091B0;top:43px;color:#D6D6D6;margin:0px 10px 10px 10px;}
+.topgisLoginPanel {width:580px;height:80px;background:#165F84;border:0px solid #5091B0;top:0px;color:#D6D6D6;margin:0px;}
+
+ .loginForm {background:#165F84;color:#D6D6D6;height:80px;float:left;}
+ .messageForm {background:#165F84;color:#D6D6D6;height:80px;padding-left:10px;float:left;}
+
+
+
+#loginBoxes {
+  z-index:10;
+  position:relative;
+  top:15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  height:190px;
+  width:570px;
+  font-size: 12px;
+  font-weight:normal;
+}
+
+.topboxcontent .text {position:relative;padding-left:5px;font-size: 12px;color:#FFFFFF;font-weight:normal;}
+
+.login_box {position:relative;width:550px;margin:5px;height:200px;padding-left:15px;border:1px solid #8AB5CC;color:#FFFFFF;background:#29739C url("../images/login/header_login.jpg") center right no-repeat;}
+ #login_box span {position:absolute;padding-left:0px;padding-top:10px;font-size: 16px;color:#FFB542;font-weight:bold;}
+
+ #login_box IMG {position:relative;padding-left:0px;}
+ .login_box a    { color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+ .login_box a:visited    { color: #FFFFFF; font-weight: bold; text-decoration: underline; }
+ .login_box a:active    { color: #C4D7EB; font-weight: bold; text-decoration: underline; }
+ .login_box a:hover    { color: #C4D7EB; font-weight: bold; text-decoration: underline; }
+
+/* top login box ends */
+
+/* alert box message starts */
+.alertbox {width:230px;padding:5px;background:#FFFFFF;text-align:left;color:#BB2122;border:1px solid #BB2122;}
+ .alertBoxText {position:relative;padding-left:0px;font-weight:bold;font-size:12px;color:#BB2122;}
+ .alertbox a    { color: #BB2122; font-weight: bold; text-decoration: underline; }
+ .alertbox a:visited    { color: #BB2122; font-weight: bold; text-decoration: underline; }
+ .alertbox a:active    { color: #C65152; font-weight: bold; text-decoration: underline; }
+ .alertbox a:hover    { color: #C65152; font-weight: bold; text-decoration: underline; }
+/* alert box message ends */
+
+/* middle login box starts */
+.bottomboxcontent {width:580px;height:40px;background:#D0E0F0; text-align:left; border:0 solid #ededed;}
+.bottomloginPanel {position:relative;width:520px;font-size:12px; color:#525252;top:5px; padding:5px; margin:0px 10px 10px 10px;}
+ .bottomloginPanel a    { color: #515151; font-weight: normal; text-decoration: underline; }
+ .bottomloginPanel a:visited    { color: #515151; font-weight: normal; text-decoration: underline; }
+ .bottomloginPanel a:active    { color: #B6B6B6; font-weight: normal; text-decoration: underline; }
+ .bottomloginPanel a:hover    { color: #B6B6B6; font-weight: normal; text-decoration: underline; }
+/* middle login box ends */
+
+/* bottom login box starts */
+.footerloginboxcontent {width:578px;height:30px;background:#FFFFFF;border:1px solid #C6D6E7;}
+ .footerloginText {font-size:10px; color:#525252; margin:6px;text-align:right;}
+ .footerloginText a    { color: #186A93; font-weight: normal; text-decoration: underline; }
+ .footerloginText a:visited    { color: #186A93; font-weight: normal; text-decoration: underline; }
+ .footerloginText a:active    { color: #C4D7EB; font-weight: normal; text-decoration: underline; }
+ .footerloginText a:hover    { color: #C4D7EB; font-weight: normal; text-decoration: underline; }
+/* bottom login box ends */
+
+.TextField {background-color:#EFEFEF;color:#000000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:10px;}
+.Btn {background-color:#FFB542;border:1px outset #0A445C;color:#000000;cursor:pointer;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;padding:2px;}
+.Btn:hover {background-color:#FCC267;border:1px outset #0A445C;color:#000000;cursor:pointer;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;padding:2px;}
